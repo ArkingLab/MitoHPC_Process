@@ -1,5 +1,7 @@
 # MitoHPC_Process
 
+## Run MitoHPC_process script for summary files
+
 ## Filters applied
 ### Variant level filters applied  
  -- FILTER column: no "strict_strand|strand_bias|base_qual|map_qual|weak_evidence|slippage|position|Homopolymer|clustered|fragment|haplotype"  
