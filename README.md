@@ -1,6 +1,6 @@
 # MitoHPC_Process
 
-## Run MitoHPC_process script for summary files
+Run MitoHPC_process script for summary files
 
 ## Filters applied
 ### Variant level filters applied  
