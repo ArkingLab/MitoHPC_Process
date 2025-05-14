@@ -13,6 +13,15 @@ Run MitoHPC_process script for summary files
  -- Copy number <= 40  
  -- het_count > 5  
 
+
+## Twist pre_process  
+### Pre process fastq files and map to reference to generate BAM files for MitoHPC  
+ -- Run twist_pipeline.sh script interactively to generate BAM files  
+
+
+## 05/14/2025  
+    - Add twist_preprocess scripts for processing fastq files
+
 ## 05/08/2025
     - Add mito_genome_reference file for all annotation
     - Update process script for the new reference file
