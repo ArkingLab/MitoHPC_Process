@@ -105,6 +105,10 @@ counts = counts %>% group_by(unique) %>%
 ################### Per sample count
 
 ## per sample counts
+
+## 100925 update: Remove the two het variants we think are false positive
+counts = counts %>% filter(!(unique %in% c("12705_C_T", "12684_G_A")))
+
 persamplecount = counts %>% group_by(SAMPLE) %>%
   summarize(count_het = sum(AF != 1),
             count_homo = sum(AF == 1),
