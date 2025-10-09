@@ -19,6 +19,9 @@ Run MitoHPC_process script for summary files
  -- Run twist_pipeline.sh script interactively to generate BAM files  
 
 
+## 10/06/2025
+    - Add heteroplasmy filter for the two false positive variants (12705_C_T and 12684_G_A)
+
 ## 05/14/2025  
     - Add twist_preprocess scripts for processing fastq files
 
