@@ -13,11 +13,16 @@ Run MitoHPC_process script for summary files
  -- Copy number <= 40  
  -- het_count > 5  
 
+## README file for summary outputs
+
+README_MitoHPC_summary.txt
 
 ## Twist pre_process  
 ### Pre process fastq files and map to reference to generate BAM files for MitoHPC  
  -- Run twist_pipeline.sh script interactively to generate BAM files  
 
+## 12/05/2026
+    - Add README file that explains the columns within each summary file
 
 ## 10/09/2025
     - Add heteroplasmy filter for the two false positive variants (12705_C_T and 12684_G_A)
