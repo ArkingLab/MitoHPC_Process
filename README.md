@@ -21,7 +21,7 @@ README_MitoHPC_summary.txt
 ### Pre process fastq files and map to reference to generate BAM files for MitoHPC  
  -- Run twist_pipeline.sh script interactively to generate BAM files  
 
-## 12/05/2026
+## 12/05/2025
     - Add README file that explains the columns within each summary file
 
 ## 10/09/2025
