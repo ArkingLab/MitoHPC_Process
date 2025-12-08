@@ -21,7 +21,7 @@
  -- filter_numt: whether the variant is NUMT or not
  -- GENE/COMPLEX: the gene / complex info of the variant
  -- mito_lc_consequence/mlc: mito_lc score and consequence for the variant
- -- mlcm: mlc score adjusted with # of homoplasmy seen for each site in UKB
+ -- mlcm: mlc score adjusted with # of homoplasmy seen for each site in UKB (mito_lc_score / (1+log(count_homo+1,10)))
  -- AP_score: Apogee score
  -- MCC_score: missense_OEUF
  -- Median_AF_Het: The median AF of each unique het variant across all samples
