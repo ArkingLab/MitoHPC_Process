@@ -21,6 +21,9 @@ README_MitoHPC_summary.txt
 ### Pre process fastq files and map to reference to generate BAM files for MitoHPC  
  -- Run twist_pipeline.sh script interactively to generate BAM files  
 
+## 01/27/2026
+    - Update mito_genome_annotation file with the latest UKB dropout count and rate
+
 ## 12/05/2025
     - Add README file that explains the columns within each summary file
 
