@@ -1,0 +1,27 @@
+# Data & results
+data/
+results/
+output/
+*.bam
+*.vcf
+*.fastq*
+*.fq*
+
+# Logs
+*.log
+*.out
+*.err
+
+# Python / R
+__pycache__/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Conda / env
+.env
+.conda/
+
+# OS / editor
+.DS_Store
+.vscode/
